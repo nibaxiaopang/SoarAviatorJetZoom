@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A08C95D1F477A4D239ACAC8 /* Pods_SoarAviatorJetZoom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0FA58088764F03987D56E80 /* Pods_SoarAviatorJetZoom.framework */; };
+		FFCF620B2CF969D1005560FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF62012CF969D1005560FD /* AppDelegate.swift */; };
+		FFCF620C2CF969D1005560FD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF62082CF969D1005560FD /* SceneDelegate.swift */; };
+		FFCF620D2CF969D1005560FD /* AviatorFlyPracticeVCPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF62092CF969D1005560FD /* AviatorFlyPracticeVCPage.swift */; };
+		FFCF620E2CF969D1005560FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFCF62022CF969D1005560FD /* Assets.xcassets */; };
+		FFCF62102CF969D1005560FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFCF62052CF969D1005560FD /* LaunchScreen.storyboard */; };
+		FFCF62112CF969D1005560FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFCF62072CF969D1005560FD /* Main.storyboard */; };
+		FFCF62172CF96CED005560FD /* bird1.gif in Resources */ = {isa = PBXBuildFile; fileRef = FFCF62142CF96CED005560FD /* bird1.gif */; };
+		FFCF62182CF96CED005560FD /* playerAnimation.gif in Resources */ = {isa = PBXBuildFile; fileRef = FFCF62152CF96CED005560FD /* playerAnimation.gif */; };
+		FFCF62192CF96CED005560FD /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = FFCF62162CF96CED005560FD /* spark.png */; };
+		FFCF621C2CF96CF8005560FD /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FFCF621A2CF96CF8005560FD /* GameScene.sks */; };
+		FFCF621D2CF96CF8005560FD /* PlayerExplosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = FFCF621B2CF96CF8005560FD /* PlayerExplosion.sks */; };
+		FFCF621F2CF96D93005560FD /* AviatorGameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF621E2CF96D93005560FD /* AviatorGameState.swift */; };
+		FFCF62232CF96DD3005560FD /* AviatorGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF62222CF96DD3005560FD /* AviatorGameScene.swift */; };
+		FFCF62252CF96DEC005560FD /* SKTexture+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF62242CF96DEC005560FD /* SKTexture+ext.swift */; };
+		FFCF62272CF96E00005560FD /* AviatorFlappyGameVCPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF62262CF96E00005560FD /* AviatorFlappyGameVCPage.swift */; };
+		FFCF622B2CF96E33005560FD /* AviatorPlaneFlyVCPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF622A2CF96E33005560FD /* AviatorPlaneFlyVCPage.swift */; };
+		FFCF622D2CF96E45005560FD /* AviatorGameSceneTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF622C2CF96E45005560FD /* AviatorGameSceneTwo.swift */; };
+		FFCF622F2CF96E56005560FD /* AviatorPhysicsCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF622E2CF96E56005560FD /* AviatorPhysicsCategory.swift */; };
+		FFCF62312CF96E60005560FD /* AviatorStartAPPVCPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF62302CF96E60005560FD /* AviatorStartAPPVCPage.swift */; };
+		FFCF62332CF96E68005560FD /* AviatorAlterUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF62322CF96E68005560FD /* AviatorAlterUtils.swift */; };
+		FFCF62372CF96E81005560FD /* AviatorSettingVCPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF62362CF96E81005560FD /* AviatorSettingVCPage.swift */; };
+		FFCF62392CF96EBE005560FD /* AviatorStartVCPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF62382CF96EBE005560FD /* AviatorStartVCPage.swift */; };
+		FFCF623D2CF96EDB005560FD /* AviatorNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF623C2CF96EDB005560FD /* AviatorNavigationController.swift */; };
+		FFCF623F2CF96F12005560FD /* AviatorHomeVCPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF623E2CF96F12005560FD /* AviatorHomeVCPage.swift */; };
+		FFCF62412CF96F53005560FD /* AviatorAboutVCPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF62402CF96F53005560FD /* AviatorAboutVCPage.swift */; };
+		FFCF62432CF96F69005560FD /* UIView+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF62422CF96F69005560FD /* UIView+ext.swift */; };
+		FFCF624B2CF971BD005560FD /* AviatorPrivacyVCPage.m in Sources */ = {isa = PBXBuildFile; fileRef = FFCF624A2CF971BD005560FD /* AviatorPrivacyVCPage.m */; };
+		FFCF624D2CF97247005560FD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FFCF624C2CF97247005560FD /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8C339DDCF320A7EB2EDDAE9D /* Pods-SoarAviatorJetZoom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoarAviatorJetZoom.debug.xcconfig"; path = "Target Support Files/Pods-SoarAviatorJetZoom/Pods-SoarAviatorJetZoom.debug.xcconfig"; sourceTree = "<group>"; };
+		E0FA58088764F03987D56E80 /* Pods_SoarAviatorJetZoom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SoarAviatorJetZoom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4CB175D1B49CF0F5F3FD9ED /* Pods-SoarAviatorJetZoom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoarAviatorJetZoom.release.xcconfig"; path = "Target Support Files/Pods-SoarAviatorJetZoom/Pods-SoarAviatorJetZoom.release.xcconfig"; sourceTree = "<group>"; };
+		FFCF61E92CF969BF005560FD /* SoarAviatorJetZoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoarAviatorJetZoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFCF62012CF969D1005560FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFCF62022CF969D1005560FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFCF62032CF969D1005560FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFCF62042CF969D1005560FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFCF62062CF969D1005560FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFCF62082CF969D1005560FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FFCF62092CF969D1005560FD /* AviatorFlyPracticeVCPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AviatorFlyPracticeVCPage.swift; sourceTree = "<group>"; };
+		FFCF62142CF96CED005560FD /* bird1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = bird1.gif; sourceTree = "<group>"; };
+		FFCF62152CF96CED005560FD /* playerAnimation.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = playerAnimation.gif; sourceTree = "<group>"; };
+		FFCF62162CF96CED005560FD /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		FFCF621A2CF96CF8005560FD /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		FFCF621B2CF96CF8005560FD /* PlayerExplosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = PlayerExplosion.sks; sourceTree = "<group>"; };
+		FFCF621E2CF96D93005560FD /* AviatorGameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AviatorGameState.swift; sourceTree = "<group>"; };
+		FFCF62222CF96DD3005560FD /* AviatorGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AviatorGameScene.swift; sourceTree = "<group>"; };
+		FFCF62242CF96DEC005560FD /* SKTexture+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKTexture+ext.swift"; sourceTree = "<group>"; };
+		FFCF62262CF96E00005560FD /* AviatorFlappyGameVCPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AviatorFlappyGameVCPage.swift; sourceTree = "<group>"; };
+		FFCF622A2CF96E33005560FD /* AviatorPlaneFlyVCPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AviatorPlaneFlyVCPage.swift; sourceTree = "<group>"; };
+		FFCF622C2CF96E45005560FD /* AviatorGameSceneTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AviatorGameSceneTwo.swift; sourceTree = "<group>"; };
+		FFCF622E2CF96E56005560FD /* AviatorPhysicsCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AviatorPhysicsCategory.swift; sourceTree = "<group>"; };
+		FFCF62302CF96E60005560FD /* AviatorStartAPPVCPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AviatorStartAPPVCPage.swift; sourceTree = "<group>"; };
+		FFCF62322CF96E68005560FD /* AviatorAlterUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AviatorAlterUtils.swift; sourceTree = "<group>"; };
+		FFCF62362CF96E81005560FD /* AviatorSettingVCPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AviatorSettingVCPage.swift; sourceTree = "<group>"; };
+		FFCF62382CF96EBE005560FD /* AviatorStartVCPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AviatorStartVCPage.swift; sourceTree = "<group>"; };
+		FFCF623C2CF96EDB005560FD /* AviatorNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AviatorNavigationController.swift; sourceTree = "<group>"; };
+		FFCF623E2CF96F12005560FD /* AviatorHomeVCPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AviatorHomeVCPage.swift; sourceTree = "<group>"; };
+		FFCF62402CF96F53005560FD /* AviatorAboutVCPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AviatorAboutVCPage.swift; sourceTree = "<group>"; };
+		FFCF62422CF96F69005560FD /* UIView+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+ext.swift"; sourceTree = "<group>"; };
+		FFCF62482CF971BD005560FD /* SoarAviatorJetZoom-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SoarAviatorJetZoom-Bridging-Header.h"; sourceTree = "<group>"; };
+		FFCF62492CF971BD005560FD /* AviatorPrivacyVCPage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AviatorPrivacyVCPage.h; sourceTree = "<group>"; };
+		FFCF624A2CF971BD005560FD /* AviatorPrivacyVCPage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AviatorPrivacyVCPage.m; sourceTree = "<group>"; };
+		FFCF624C2CF97247005560FD /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFCF61E62CF969BF005560FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A08C95D1F477A4D239ACAC8 /* Pods_SoarAviatorJetZoom.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D68E567A2B2303F3D43AC6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0FA58088764F03987D56E80 /* Pods_SoarAviatorJetZoom.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F282DAFD95C38093451F71DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C339DDCF320A7EB2EDDAE9D /* Pods-SoarAviatorJetZoom.debug.xcconfig */,
+				F4CB175D1B49CF0F5F3FD9ED /* Pods-SoarAviatorJetZoom.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FFCF61E02CF969BF005560FD = {
+			isa = PBXGroup;
+			children = (
+				FFCF620A2CF969D1005560FD /* SoarAviatorJetZoom */,
+				FFCF61EA2CF969BF005560FD /* Products */,
+				F282DAFD95C38093451F71DB /* Pods */,
+				6D68E567A2B2303F3D43AC6E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FFCF61EA2CF969BF005560FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFCF61E92CF969BF005560FD /* SoarAviatorJetZoom.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFCF620A2CF969D1005560FD /* SoarAviatorJetZoom */ = {
+			isa = PBXGroup;
+			children = (
+				FFCF62012CF969D1005560FD /* AppDelegate.swift */,
+				FFCF62082CF969D1005560FD /* SceneDelegate.swift */,
+				FFCF62022CF969D1005560FD /* Assets.xcassets */,
+				FFCF62032CF969D1005560FD /* Info.plist */,
+				FFCF62052CF969D1005560FD /* LaunchScreen.storyboard */,
+				FFCF62072CF969D1005560FD /* Main.storyboard */,
+				FFCF62382CF96EBE005560FD /* AviatorStartVCPage.swift */,
+				FFCF62492CF971BD005560FD /* AviatorPrivacyVCPage.h */,
+				FFCF624A2CF971BD005560FD /* AviatorPrivacyVCPage.m */,
+				FFCF623E2CF96F12005560FD /* AviatorHomeVCPage.swift */,
+				FFCF623C2CF96EDB005560FD /* AviatorNavigationController.swift */,
+				FFCF62092CF969D1005560FD /* AviatorFlyPracticeVCPage.swift */,
+				FFCF621E2CF96D93005560FD /* AviatorGameState.swift */,
+				FFCF62222CF96DD3005560FD /* AviatorGameScene.swift */,
+				FFCF62242CF96DEC005560FD /* SKTexture+ext.swift */,
+				FFCF62262CF96E00005560FD /* AviatorFlappyGameVCPage.swift */,
+				FFCF622A2CF96E33005560FD /* AviatorPlaneFlyVCPage.swift */,
+				FFCF622C2CF96E45005560FD /* AviatorGameSceneTwo.swift */,
+				FFCF622E2CF96E56005560FD /* AviatorPhysicsCategory.swift */,
+				FFCF62302CF96E60005560FD /* AviatorStartAPPVCPage.swift */,
+				FFCF62322CF96E68005560FD /* AviatorAlterUtils.swift */,
+				FFCF62362CF96E81005560FD /* AviatorSettingVCPage.swift */,
+				FFCF62402CF96F53005560FD /* AviatorAboutVCPage.swift */,
+				FFCF62422CF96F69005560FD /* UIView+ext.swift */,
+				FFCF62132CF96C82005560FD /* Scene */,
+				FFCF62122CF96C7A005560FD /* Resuorce */,
+				FFCF62482CF971BD005560FD /* SoarAviatorJetZoom-Bridging-Header.h */,
+			);
+			path = SoarAviatorJetZoom;
+			sourceTree = "<group>";
+		};
+		FFCF62122CF96C7A005560FD /* Resuorce */ = {
+			isa = PBXGroup;
+			children = (
+				FFCF624C2CF97247005560FD /* GoogleService-Info.plist */,
+				FFCF62142CF96CED005560FD /* bird1.gif */,
+				FFCF62152CF96CED005560FD /* playerAnimation.gif */,
+				FFCF62162CF96CED005560FD /* spark.png */,
+			);
+			path = Resuorce;
+			sourceTree = "<group>";
+		};
+		FFCF62132CF96C82005560FD /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				FFCF621A2CF96CF8005560FD /* GameScene.sks */,
+				FFCF621B2CF96CF8005560FD /* PlayerExplosion.sks */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFCF61E82CF969BF005560FD /* SoarAviatorJetZoom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFCF61FC2CF969BF005560FD /* Build configuration list for PBXNativeTarget "SoarAviatorJetZoom" */;
+			buildPhases = (
+				A68B884AF9F90633D76D5A05 /* [CP] Check Pods Manifest.lock */,
+				FFCF61E52CF969BF005560FD /* Sources */,
+				FFCF61E62CF969BF005560FD /* Frameworks */,
+				FFCF61E72CF969BF005560FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoarAviatorJetZoom;
+			productName = SoarAviatorJetZoom;
+			productReference = FFCF61E92CF969BF005560FD /* SoarAviatorJetZoom.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFCF61E12CF969BF005560FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					FFCF61E82CF969BF005560FD = {
+						CreatedOnToolsVersion = 16.0;
+						LastSwiftMigration = 1600;
+					};
+				};
+			};
+			buildConfigurationList = FFCF61E42CF969BF005560FD /* Build configuration list for PBXProject "SoarAviatorJetZoom" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFCF61E02CF969BF005560FD;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FFCF61EA2CF969BF005560FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFCF61E82CF969BF005560FD /* SoarAviatorJetZoom */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFCF61E72CF969BF005560FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFCF62172CF96CED005560FD /* bird1.gif in Resources */,
+				FFCF62182CF96CED005560FD /* playerAnimation.gif in Resources */,
+				FFCF624D2CF97247005560FD /* GoogleService-Info.plist in Resources */,
+				FFCF62192CF96CED005560FD /* spark.png in Resources */,
+				FFCF620E2CF969D1005560FD /* Assets.xcassets in Resources */,
+				FFCF621C2CF96CF8005560FD /* GameScene.sks in Resources */,
+				FFCF621D2CF96CF8005560FD /* PlayerExplosion.sks in Resources */,
+				FFCF62102CF969D1005560FD /* LaunchScreen.storyboard in Resources */,
+				FFCF62112CF969D1005560FD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A68B884AF9F90633D76D5A05 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SoarAviatorJetZoom-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFCF61E52CF969BF005560FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFCF62272CF96E00005560FD /* AviatorFlappyGameVCPage.swift in Sources */,
+				FFCF622B2CF96E33005560FD /* AviatorPlaneFlyVCPage.swift in Sources */,
+				FFCF62412CF96F53005560FD /* AviatorAboutVCPage.swift in Sources */,
+				FFCF623D2CF96EDB005560FD /* AviatorNavigationController.swift in Sources */,
+				FFCF62312CF96E60005560FD /* AviatorStartAPPVCPage.swift in Sources */,
+				FFCF62232CF96DD3005560FD /* AviatorGameScene.swift in Sources */,
+				FFCF62372CF96E81005560FD /* AviatorSettingVCPage.swift in Sources */,
+				FFCF62252CF96DEC005560FD /* SKTexture+ext.swift in Sources */,
+				FFCF624B2CF971BD005560FD /* AviatorPrivacyVCPage.m in Sources */,
+				FFCF620B2CF969D1005560FD /* AppDelegate.swift in Sources */,
+				FFCF621F2CF96D93005560FD /* AviatorGameState.swift in Sources */,
+				FFCF620C2CF969D1005560FD /* SceneDelegate.swift in Sources */,
+				FFCF622F2CF96E56005560FD /* AviatorPhysicsCategory.swift in Sources */,
+				FFCF620D2CF969D1005560FD /* AviatorFlyPracticeVCPage.swift in Sources */,
+				FFCF62392CF96EBE005560FD /* AviatorStartVCPage.swift in Sources */,
+				FFCF622D2CF96E45005560FD /* AviatorGameSceneTwo.swift in Sources */,
+				FFCF62332CF96E68005560FD /* AviatorAlterUtils.swift in Sources */,
+				FFCF62432CF96F69005560FD /* UIView+ext.swift in Sources */,
+				FFCF623F2CF96F12005560FD /* AviatorHomeVCPage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FFCF62052CF969D1005560FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFCF62042CF969D1005560FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FFCF62072CF969D1005560FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFCF62062CF969D1005560FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFCF61FD2CF969BF005560FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C339DDCF320A7EB2EDDAE9D /* Pods-SoarAviatorJetZoom.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SoarAviatorJetZoom/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "SoarAviator JetZoom";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SoarAviatorJetZoom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SoarAviatorJetZoom/SoarAviatorJetZoom-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FFCF61FE2CF969BF005560FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4CB175D1B49CF0F5F3FD9ED /* Pods-SoarAviatorJetZoom.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SoarAviatorJetZoom/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "SoarAviator JetZoom";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SoarAviatorJetZoom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SoarAviatorJetZoom/SoarAviatorJetZoom-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FFCF61FF2CF969BF005560FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FFCF62002CF969BF005560FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFCF61E42CF969BF005560FD /* Build configuration list for PBXProject "SoarAviatorJetZoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFCF61FF2CF969BF005560FD /* Debug */,
+				FFCF62002CF969BF005560FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFCF61FC2CF969BF005560FD /* Build configuration list for PBXNativeTarget "SoarAviatorJetZoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFCF61FD2CF969BF005560FD /* Debug */,
+				FFCF61FE2CF969BF005560FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFCF61E12CF969BF005560FD /* Project object */;
+}

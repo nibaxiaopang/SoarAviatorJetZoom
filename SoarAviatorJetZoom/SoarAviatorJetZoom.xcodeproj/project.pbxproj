@@ -109,6 +109,12 @@
 		FFCF62652CF97786005560FD /* UIViewController+Extention.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Extention.h"; sourceTree = "<group>"; };
 		FFCF62662CF97786005560FD /* UIViewController+Extention.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Extention.m"; sourceTree = "<group>"; };
 		FFCF62712CF9786D005560FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FFCF62732CF98417005560FD /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		FFCF62742CF98417005560FD /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Main.strings"; sourceTree = "<group>"; };
+		FFCF62752CF98417005560FD /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		FFCF62762CF98424005560FD /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		FFCF62772CF98424005560FD /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Main.strings; sourceTree = "<group>"; };
+		FFCF62782CF98424005560FD /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -289,6 +295,8 @@
 			knownRegions = (
 				en,
 				Base,
+				"pt-BR",
+				tr,
 			);
 			mainGroup = FFCF61E02CF969BF005560FD;
 			minimizedProjectReferenceProxies = 1;
@@ -407,6 +415,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				FFCF62042CF969D1005560FD /* Base */,
+				FFCF62732CF98417005560FD /* pt-BR */,
+				FFCF62762CF98424005560FD /* tr */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -415,6 +425,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				FFCF62062CF969D1005560FD /* Base */,
+				FFCF62742CF98417005560FD /* pt-BR */,
+				FFCF62772CF98424005560FD /* tr */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -423,6 +435,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				FFCF62712CF9786D005560FD /* en */,
+				FFCF62752CF98417005560FD /* pt-BR */,
+				FFCF62782CF98424005560FD /* tr */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -508,6 +522,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -571,6 +586,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";

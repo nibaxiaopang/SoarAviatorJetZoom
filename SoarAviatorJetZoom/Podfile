@@ -6,5 +6,8 @@ target 'SoarAviatorJetZoom' do
   use_frameworks!
 
   # Pods for SoarAviatorJetZoom
-
+  pod 'Adjust', '4.38.4'
+  pod 'Firebase/Core', '10.28.1'
+  pod 'Firebase/Auth', '10.28.1'
+  pod 'GoogleSignIn', '7.1.0'
 end

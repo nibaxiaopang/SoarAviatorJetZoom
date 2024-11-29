@@ -228,7 +228,13 @@
                                         <real key="value" value="22"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="backAction:" destination="Vbc-gA-97i" eventType="touchUpInside" id="xOI-V3-y2d"/>
+                                </connections>
                             </button>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="ktg-e8-6JF">
+                                <rect key="frame" x="186.66666666666666" y="416" width="20" height="20"/>
+                            </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="MFM-th-YrQ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -236,12 +242,19 @@
                             <constraint firstAttribute="bottom" secondItem="Vae-D3-Rek" secondAttribute="bottom" id="5Jr-AS-08W"/>
                             <constraint firstItem="Vae-D3-Rek" firstAttribute="top" secondItem="GSb-oe-fnp" secondAttribute="top" id="M8Q-Iw-Knl"/>
                             <constraint firstItem="QOZ-Rg-UWN" firstAttribute="top" secondItem="MFM-th-YrQ" secondAttribute="top" constant="16" id="Yhg-UT-JR0"/>
+                            <constraint firstItem="ktg-e8-6JF" firstAttribute="centerY" secondItem="GSb-oe-fnp" secondAttribute="centerY" id="aqX-xx-Mjo"/>
+                            <constraint firstItem="ktg-e8-6JF" firstAttribute="centerX" secondItem="GSb-oe-fnp" secondAttribute="centerX" id="eWC-bk-P9g"/>
                             <constraint firstItem="Vae-D3-Rek" firstAttribute="leading" secondItem="GSb-oe-fnp" secondAttribute="leading" id="q6j-5U-AH4"/>
                             <constraint firstAttribute="trailing" secondItem="Vae-D3-Rek" secondAttribute="trailing" id="t9j-hV-YMw"/>
                             <constraint firstItem="MFM-th-YrQ" firstAttribute="trailing" secondItem="QOZ-Rg-UWN" secondAttribute="trailing" constant="16" id="tSQ-uC-NgI"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="aA6-sA-KGO"/>
+                    <connections>
+                        <outlet property="activityIndicatorView" destination="ktg-e8-6JF" id="Cok-09-e53"/>
+                        <outlet property="backBtn" destination="QOZ-Rg-UWN" id="MpE-6d-6Ds"/>
+                        <outlet property="bgView" destination="Vae-D3-Rek" id="xom-uV-h7o"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MHd-Bi-dzi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -664,6 +677,7 @@ At SoarAviator JetZoom, we aim to combine engaging gameplay with intuitive contr
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" image="Artboard 2"/>
                                         <connections>
+                                            <action selector="flappyAction:" destination="Vb4-NH-5GC" eventType="touchUpInside" id="uFb-cQ-Kt3"/>
                                             <segue destination="oDV-YB-lcK" kind="show" id="CbL-tL-g5c"/>
                                         </connections>
                                     </button>
@@ -672,6 +686,7 @@ At SoarAviator JetZoom, we aim to combine engaging gameplay with intuitive contr
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" image="Artboard 3"/>
                                         <connections>
+                                            <action selector="flyPractices:" destination="Vb4-NH-5GC" eventType="touchUpInside" id="dwo-sV-8m3"/>
                                             <segue destination="rn9-Xv-hLN" kind="show" id="Kew-yv-JxZ"/>
                                         </connections>
                                     </button>
@@ -680,6 +695,7 @@ At SoarAviator JetZoom, we aim to combine engaging gameplay with intuitive contr
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" image="Artboard 4"/>
                                         <connections>
+                                            <action selector="planeFly:" destination="Vb4-NH-5GC" eventType="touchUpInside" id="w69-GQ-axZ"/>
                                             <segue destination="mXK-ma-lx7" kind="show" id="VTE-q1-SeA"/>
                                         </connections>
                                     </button>
@@ -891,6 +907,9 @@ At SoarAviator JetZoom, we aim to combine engaging gameplay with intuitive contr
                                 <color key="textColor" name="appColor_white"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="MA5-AU-6cd">
+                                <rect key="frame" x="186.66666666666666" y="416" width="20" height="20"/>
+                            </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="trZ-jE-r5f"/>
                         <color key="backgroundColor" name="appColor_black"/>
@@ -900,7 +919,9 @@ At SoarAviator JetZoom, we aim to combine engaging gameplay with intuitive contr
                             <constraint firstAttribute="trailing" secondItem="V4N-St-yUp" secondAttribute="trailing" id="5rL-r2-xgi"/>
                             <constraint firstItem="qsI-eV-Mxe" firstAttribute="width" secondItem="V4N-St-yUp" secondAttribute="width" multiplier="0.85" id="AsG-KU-O04"/>
                             <constraint firstItem="trZ-jE-r5f" firstAttribute="trailing" secondItem="lwe-AB-HuA" secondAttribute="trailing" constant="34" id="FKg-4v-X7u"/>
+                            <constraint firstItem="MA5-AU-6cd" firstAttribute="centerY" secondItem="1XU-QJ-2bj" secondAttribute="centerY" id="M6C-Lo-SHS"/>
                             <constraint firstItem="pFR-SJ-fkV" firstAttribute="leading" secondItem="trZ-jE-r5f" secondAttribute="leading" id="RNH-LZ-6I9"/>
+                            <constraint firstItem="MA5-AU-6cd" firstAttribute="centerX" secondItem="1XU-QJ-2bj" secondAttribute="centerX" id="Unv-Ue-TJX"/>
                             <constraint firstItem="qsI-eV-Mxe" firstAttribute="centerY" secondItem="1XU-QJ-2bj" secondAttribute="centerY" multiplier="0.8" id="UxR-ZX-MSv"/>
                             <constraint firstItem="V4N-St-yUp" firstAttribute="top" secondItem="1XU-QJ-2bj" secondAttribute="top" id="aAd-0s-sQp"/>
                             <constraint firstItem="trZ-jE-r5f" firstAttribute="bottom" secondItem="lwe-AB-HuA" secondAttribute="bottom" constant="34" id="dzx-db-aEp"/>
@@ -910,6 +931,9 @@ At SoarAviator JetZoom, we aim to combine engaging gameplay with intuitive contr
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="2O5-Ia-dkH"/>
+                    <connections>
+                        <outlet property="activityIndView" destination="MA5-AU-6cd" id="POH-i9-epK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IEJ-NS-YdR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

@@ -36,6 +36,19 @@
 		FFCF62432CF96F69005560FD /* UIView+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCF62422CF96F69005560FD /* UIView+ext.swift */; };
 		FFCF624B2CF971BD005560FD /* AviatorPrivacyVCPage.m in Sources */ = {isa = PBXBuildFile; fileRef = FFCF624A2CF971BD005560FD /* AviatorPrivacyVCPage.m */; };
 		FFCF624D2CF97247005560FD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FFCF624C2CF97247005560FD /* GoogleService-Info.plist */; };
+		FFCF624F2CF9770E005560FD /* AdServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFCF624E2CF9770E005560FD /* AdServices.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		FFCF62512CF97714005560FD /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFCF62502CF97714005560FD /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		FFCF62532CF97719005560FD /* AppTrackingTransparency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFCF62522CF97719005560FD /* AppTrackingTransparency.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		FFCF62672CF97786005560FD /* AviatorWViewCGLogBase.m in Sources */ = {isa = PBXBuildFile; fileRef = FFCF62602CF97786005560FD /* AviatorWViewCGLogBase.m */; };
+		FFCF62682CF97786005560FD /* AviatorGoogleEvTool.m in Sources */ = {isa = PBXBuildFile; fileRef = FFCF625A2CF97786005560FD /* AviatorGoogleEvTool.m */; };
+		FFCF62692CF97786005560FD /* AviatorWViewInsFunc.m in Sources */ = {isa = PBXBuildFile; fileRef = FFCF62622CF97786005560FD /* AviatorWViewInsFunc.m */; };
+		FFCF626A2CF97786005560FD /* AviatorWebViewBaseCG.m in Sources */ = {isa = PBXBuildFile; fileRef = FFCF625E2CF97786005560FD /* AviatorWebViewBaseCG.m */; };
+		FFCF626B2CF97786005560FD /* NSObject+Extention.m in Sources */ = {isa = PBXBuildFile; fileRef = FFCF62642CF97786005560FD /* NSObject+Extention.m */; };
+		FFCF626C2CF97786005560FD /* UIViewController+Extention.m in Sources */ = {isa = PBXBuildFile; fileRef = FFCF62662CF97786005560FD /* UIViewController+Extention.m */; };
+		FFCF626D2CF97786005560FD /* AviatorDeviceData.m in Sources */ = {isa = PBXBuildFile; fileRef = FFCF62582CF97786005560FD /* AviatorDeviceData.m */; };
+		FFCF626E2CF97786005560FD /* AviatorAdjustEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = FFCF62562CF97786005560FD /* AviatorAdjustEvent.m */; };
+		FFCF626F2CF97786005560FD /* AviatorUUidInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = FFCF625C2CF97786005560FD /* AviatorUUidInstance.m */; };
+		FFCF62722CF9786D005560FD /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FFCF62702CF9786D005560FD /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +87,28 @@
 		FFCF62492CF971BD005560FD /* AviatorPrivacyVCPage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AviatorPrivacyVCPage.h; sourceTree = "<group>"; };
 		FFCF624A2CF971BD005560FD /* AviatorPrivacyVCPage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AviatorPrivacyVCPage.m; sourceTree = "<group>"; };
 		FFCF624C2CF97247005560FD /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FFCF624E2CF9770E005560FD /* AdServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdServices.framework; path = System/Library/Frameworks/AdServices.framework; sourceTree = SDKROOT; };
+		FFCF62502CF97714005560FD /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		FFCF62522CF97719005560FD /* AppTrackingTransparency.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppTrackingTransparency.framework; path = System/Library/Frameworks/AppTrackingTransparency.framework; sourceTree = SDKROOT; };
+		FFCF62552CF97786005560FD /* AviatorAdjustEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AviatorAdjustEvent.h; sourceTree = "<group>"; };
+		FFCF62562CF97786005560FD /* AviatorAdjustEvent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AviatorAdjustEvent.m; sourceTree = "<group>"; };
+		FFCF62572CF97786005560FD /* AviatorDeviceData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AviatorDeviceData.h; sourceTree = "<group>"; };
+		FFCF62582CF97786005560FD /* AviatorDeviceData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AviatorDeviceData.m; sourceTree = "<group>"; };
+		FFCF62592CF97786005560FD /* AviatorGoogleEvTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AviatorGoogleEvTool.h; sourceTree = "<group>"; };
+		FFCF625A2CF97786005560FD /* AviatorGoogleEvTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AviatorGoogleEvTool.m; sourceTree = "<group>"; };
+		FFCF625B2CF97786005560FD /* AviatorUUidInstance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AviatorUUidInstance.h; sourceTree = "<group>"; };
+		FFCF625C2CF97786005560FD /* AviatorUUidInstance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AviatorUUidInstance.m; sourceTree = "<group>"; };
+		FFCF625D2CF97786005560FD /* AviatorWebViewBaseCG.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AviatorWebViewBaseCG.h; sourceTree = "<group>"; };
+		FFCF625E2CF97786005560FD /* AviatorWebViewBaseCG.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AviatorWebViewBaseCG.m; sourceTree = "<group>"; };
+		FFCF625F2CF97786005560FD /* AviatorWViewCGLogBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AviatorWViewCGLogBase.h; sourceTree = "<group>"; };
+		FFCF62602CF97786005560FD /* AviatorWViewCGLogBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AviatorWViewCGLogBase.m; sourceTree = "<group>"; };
+		FFCF62612CF97786005560FD /* AviatorWViewInsFunc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AviatorWViewInsFunc.h; sourceTree = "<group>"; };
+		FFCF62622CF97786005560FD /* AviatorWViewInsFunc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AviatorWViewInsFunc.m; sourceTree = "<group>"; };
+		FFCF62632CF97786005560FD /* NSObject+Extention.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Extention.h"; sourceTree = "<group>"; };
+		FFCF62642CF97786005560FD /* NSObject+Extention.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Extention.m"; sourceTree = "<group>"; };
+		FFCF62652CF97786005560FD /* UIViewController+Extention.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Extention.h"; sourceTree = "<group>"; };
+		FFCF62662CF97786005560FD /* UIViewController+Extention.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Extention.m"; sourceTree = "<group>"; };
+		FFCF62712CF9786D005560FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +117,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A08C95D1F477A4D239ACAC8 /* Pods_SoarAviatorJetZoom.framework in Frameworks */,
+				FFCF62532CF97719005560FD /* AppTrackingTransparency.framework in Frameworks */,
+				FFCF624F2CF9770E005560FD /* AdServices.framework in Frameworks */,
+				FFCF62512CF97714005560FD /* AdSupport.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +129,9 @@
 		6D68E567A2B2303F3D43AC6E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FFCF62522CF97719005560FD /* AppTrackingTransparency.framework */,
+				FFCF62502CF97714005560FD /* AdSupport.framework */,
+				FFCF624E2CF9770E005560FD /* AdServices.framework */,
 				E0FA58088764F03987D56E80 /* Pods_SoarAviatorJetZoom.framework */,
 			);
 			name = Frameworks;
@@ -150,6 +191,7 @@
 				FFCF62362CF96E81005560FD /* AviatorSettingVCPage.swift */,
 				FFCF62402CF96F53005560FD /* AviatorAboutVCPage.swift */,
 				FFCF62422CF96F69005560FD /* UIView+ext.swift */,
+				FFCF62542CF97772005560FD /* Events */,
 				FFCF62132CF96C82005560FD /* Scene */,
 				FFCF62122CF96C7A005560FD /* Resuorce */,
 				FFCF62482CF971BD005560FD /* SoarAviatorJetZoom-Bridging-Header.h */,
@@ -164,6 +206,7 @@
 				FFCF62142CF96CED005560FD /* bird1.gif */,
 				FFCF62152CF96CED005560FD /* playerAnimation.gif */,
 				FFCF62162CF96CED005560FD /* spark.png */,
+				FFCF62702CF9786D005560FD /* Localizable.strings */,
 			);
 			path = Resuorce;
 			sourceTree = "<group>";
@@ -177,6 +220,31 @@
 			path = Scene;
 			sourceTree = "<group>";
 		};
+		FFCF62542CF97772005560FD /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				FFCF62552CF97786005560FD /* AviatorAdjustEvent.h */,
+				FFCF62562CF97786005560FD /* AviatorAdjustEvent.m */,
+				FFCF62572CF97786005560FD /* AviatorDeviceData.h */,
+				FFCF62582CF97786005560FD /* AviatorDeviceData.m */,
+				FFCF62592CF97786005560FD /* AviatorGoogleEvTool.h */,
+				FFCF625A2CF97786005560FD /* AviatorGoogleEvTool.m */,
+				FFCF625B2CF97786005560FD /* AviatorUUidInstance.h */,
+				FFCF625C2CF97786005560FD /* AviatorUUidInstance.m */,
+				FFCF625D2CF97786005560FD /* AviatorWebViewBaseCG.h */,
+				FFCF625E2CF97786005560FD /* AviatorWebViewBaseCG.m */,
+				FFCF625F2CF97786005560FD /* AviatorWViewCGLogBase.h */,
+				FFCF62602CF97786005560FD /* AviatorWViewCGLogBase.m */,
+				FFCF62612CF97786005560FD /* AviatorWViewInsFunc.h */,
+				FFCF62622CF97786005560FD /* AviatorWViewInsFunc.m */,
+				FFCF62632CF97786005560FD /* NSObject+Extention.h */,
+				FFCF62642CF97786005560FD /* NSObject+Extention.m */,
+				FFCF62652CF97786005560FD /* UIViewController+Extention.h */,
+				FFCF62662CF97786005560FD /* UIViewController+Extention.m */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -188,6 +256,7 @@
 				FFCF61E52CF969BF005560FD /* Sources */,
 				FFCF61E62CF969BF005560FD /* Frameworks */,
 				FFCF61E72CF969BF005560FD /* Resources */,
+				B201BD493AD45C28E3737775 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -243,6 +312,7 @@
 				FFCF624D2CF97247005560FD /* GoogleService-Info.plist in Resources */,
 				FFCF62192CF96CED005560FD /* spark.png in Resources */,
 				FFCF620E2CF969D1005560FD /* Assets.xcassets in Resources */,
+				FFCF62722CF9786D005560FD /* Localizable.strings in Resources */,
 				FFCF621C2CF96CF8005560FD /* GameScene.sks in Resources */,
 				FFCF621D2CF96CF8005560FD /* PlayerExplosion.sks in Resources */,
 				FFCF62102CF969D1005560FD /* LaunchScreen.storyboard in Resources */,
@@ -275,6 +345,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		B201BD493AD45C28E3737775 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SoarAviatorJetZoom/Pods-SoarAviatorJetZoom-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SoarAviatorJetZoom/Pods-SoarAviatorJetZoom-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SoarAviatorJetZoom/Pods-SoarAviatorJetZoom-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -282,6 +369,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFCF62672CF97786005560FD /* AviatorWViewCGLogBase.m in Sources */,
+				FFCF62682CF97786005560FD /* AviatorGoogleEvTool.m in Sources */,
+				FFCF62692CF97786005560FD /* AviatorWViewInsFunc.m in Sources */,
+				FFCF626A2CF97786005560FD /* AviatorWebViewBaseCG.m in Sources */,
+				FFCF626B2CF97786005560FD /* NSObject+Extention.m in Sources */,
+				FFCF626C2CF97786005560FD /* UIViewController+Extention.m in Sources */,
+				FFCF626D2CF97786005560FD /* AviatorDeviceData.m in Sources */,
+				FFCF626E2CF97786005560FD /* AviatorAdjustEvent.m in Sources */,
+				FFCF626F2CF97786005560FD /* AviatorUUidInstance.m in Sources */,
 				FFCF62272CF96E00005560FD /* AviatorFlappyGameVCPage.swift in Sources */,
 				FFCF622B2CF96E33005560FD /* AviatorPlaneFlyVCPage.swift in Sources */,
 				FFCF62412CF96F53005560FD /* AviatorAboutVCPage.swift in Sources */,
@@ -323,6 +419,14 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
+		FFCF62702CF9786D005560FD /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFCF62712CF9786D005560FD /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -335,9 +439,11 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SoarAviatorJetZoom/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "SoarAviator JetZoom";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "This app collects gameplay data to improve features and experience, securely stored and never used for marketing.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -349,7 +455,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.SoarAviatorJetZoom;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fly.game.SoarAviator.JetZoom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -370,9 +476,11 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SoarAviatorJetZoom/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "SoarAviator JetZoom";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "This app collects gameplay data to improve features and experience, securely stored and never used for marketing.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -384,7 +492,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.SoarAviatorJetZoom;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fly.game.SoarAviator.JetZoom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;

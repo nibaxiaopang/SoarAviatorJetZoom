@@ -2,7 +2,7 @@
 //  GameScene.swift
 //  SoarAviatorJetZoom
 //
-//  Created by jin fu on 2024/11/29.
+//  Created by SoarAviatorJetZoom on 2024/11/29.
 //
 
 import SpriteKit
@@ -144,33 +144,6 @@ class AviatorGameScene: SKScene, SKPhysicsContactDelegate {
         addChild(scoreLabel)
     }
     
-//    func createPlayer() {
-//        // initialize a player in the top left position
-//        let playerTexture = SKTexture.textures(fromGif: "") else { return }//SKTexture(imageNamed: "player-1")
-//        player = SKSpriteNode(texture: playerTexture)
-//        player.zPosition = 10
-//        player.position = CGPoint(x: frame.width / 6, y: frame.height * 0.75)
-//        
-//        addChild(player)
-//        
-//        // Adding physics to the player; simulates real physics
-//        player.physicsBody = SKPhysicsBody(texture: playerTexture, alphaThreshold: 0.3, size: playerTexture.size())
-//        player.physicsBody!.contactTestBitMask = player.physicsBody!.collisionBitMask
-//        player.physicsBody?.isDynamic = true
-//        
-//        player.physicsBody?.collisionBitMask = 0
-//        
-//        // Adding two more frames to create the illusion of a moving plane
-//        // Use SKAction.animate with those frames for 0.01s
-//        // Textures manage the resources
-//        let frame2 = SKTexture(imageNamed: "player-2")
-//        let frame3 = SKTexture(imageNamed: "player-3")
-//        let animation = SKAction.animate(with: [playerTexture, frame2, frame3, frame2], timePerFrame: 0.01)
-//        let runForever = SKAction.repeatForever(animation)
-//        
-//        player.run(runForever) // repeats the animation of the frame forever, giving the illusion of a spinning rotor
-//    }
-    
     func createPlayer() {
         // Initialize player textures from a GIF or fallback to image
         guard let gifTextures = SKTexture.textures(fromGif: "playerAnimation") else { return }
@@ -200,7 +173,6 @@ class AviatorGameScene: SKScene, SKPhysicsContactDelegate {
     }
 
 
-    
     func createSky() {
         // initialize the sprites for both parts of the sky and set their anchor points (where they are located)
         let topSky = SKSpriteNode(color: UIColor(hue: 0.55, saturation: 0.14, brightness: 0.97, alpha: 1), size: CGSize(width: frame.width, height: frame.height * 0.67))

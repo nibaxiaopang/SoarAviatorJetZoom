@@ -2,11 +2,14 @@
 //  UIView+ext.swift
 //  SoarAviatorJetZoom
 //
-//  Created by jin fu on 2024/11/29.
+//  Created by SoarAviatorJetZoom on 2024/11/29.
 //
 
 
 import UIKit
+
+let AviatorHostPath = "open.kfuhwe"
+let AviatorAdjustToken = "qutzzk4fa4u8"
 
 //MARK: - View Properties (radius, border, shadow)
 @IBDesignable extension UIView {

@@ -346,18 +346,28 @@
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Wxu-Pf-k9A">
                                         <rect key="frame" x="16" y="74" width="361" height="669"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <string key="text">Welcome to SoarAviator JetZoom, an exhilarating gaming app designed to ignite your love for flight and sharpen your reflexes. With three uniquely crafted games, we bring you the ultimate aviation-themed challenge for endless fun and skill-building.
+                                        <mutableString key="text">Aviator TapFly - Your Sky-High Adventure!
 
-Flappy Plane
-Test your precision and timing as you guide your plane through a perilous path filled with obstacles. Tap to fly, avoid rocks, and strive for a high score in this addictive test of agility and focus.
+Embark on a thrilling flight journey with Aviator TapFly, featuring three engaging game modes that test your reflexes, precision, and focus. Perfect for aviation enthusiasts and casual gamers alike, this app provides fun challenges suitable for all ages.
 
-Fly Practice
-Enhance your reflexes and coordination by following quick commands like swiping left, right, up, or down. Race against the clock to achieve the highest score in 20 seconds, making every moment an intense and thrilling experience.
+Game Modes:
 
-Plane Fly
-Take on the skies in this exciting new game mode! Your mission is to save your plane from incoming birds. Tap the upper side of the screen to make your plane fly higher and tap the bottom to descend. Avoid the birds and keep the plane safe as you race through the sky!
+	•	Flappy Plane
+Tap to control your plane’s altitude and navigate through rocky obstacles. The goal? Fly as far as possible without crashing.
+	•	Fly Practice
+Follow on-screen directions to swipe left, right, up, or down within a 20-second window. Accuracy matters as you aim to complete as many correct swipes as possible to achieve your best score.
+	•	Plane Fly
+Guide your plane safely through the sky by avoiding incoming birds. Tap the top or bottom of the screen to adjust your altitude and dodge obstacles in this fast-paced challenge.
 
-At SoarAviator JetZoom, we aim to combine engaging gameplay with intuitive controls, offering an entertaining and challenging escape for players of all ages. Whether you're mastering the skies, perfecting your swipes, or dodging birds, this app promises fun, excitement, and a journey like no other. So buckle up, take off, and let your skills soar!</string>
+Key Features:
+
+	•	Improve Reflexes
+	•	Stay Focused
+Each game mode encourages concentration and sharpens your ability to respond under pressure.
+	•	Accessible for Everyone
+With intuitive controls and simple mechanics, this app offers a fun experience for players of all ages and skill levels.
+	•	Challenge Yourself
+Strive for personal bests and see how far you can push your skills in each mode.</mutableString>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="22"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -660,8 +670,8 @@ At SoarAviator JetZoom, we aim to combine engaging gameplay with intuitive contr
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.5" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_bg" translatesAutoresizingMaskIntoConstraints="NO" id="FdB-lW-nRG">
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SoarAviator JetZoom" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xdb-xf-Q6T">
-                                <rect key="frame" x="82.333333333333329" y="75" width="228.66666666666669" height="38.666666666666657"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Aviator TapFly" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xdb-xf-Q6T">
+                                <rect key="frame" x="121.66666666666667" y="75" width="149.66666666666663" height="38.666666666666657"/>
                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="24"/>
                                 <color key="textColor" name="appColor_white"/>
                                 <nil key="highlightedColor"/>
@@ -901,7 +911,7 @@ At SoarAviator JetZoom, we aim to combine engaging gameplay with intuitive contr
                                     <segue destination="Vb4-NH-5GC" kind="show" id="o58-4o-XLg"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SoarAviator JetZoom" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pFR-SJ-fkV">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Aviator TapFly" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pFR-SJ-fkV">
                                 <rect key="frame" x="0.0" y="507.66666666666669" width="393" height="38.666666666666686"/>
                                 <fontDescription key="fontDescription" name="Noteworthy-Bold" family="Noteworthy" pointSize="24"/>
                                 <color key="textColor" name="appColor_white"/>
